@@ -1,6 +1,4 @@
 def solution(n,t):
+    answer = n * 2**t
 
-    for time in range(t):
-        n = n * 2
-
-    return n
+    return answer
